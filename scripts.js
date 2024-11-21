@@ -40,7 +40,7 @@ form.onsubmit = (event) => {
   // Cria um novo objeto de despesa.
   const newExpense = {
     id: new Date().getTime(),
-    expense: expenses.value,
+    expense: expense.value,
     category_id: category.value,
     category_name: category.options[category.selectedIndex].text,
     amount: amount.value,
